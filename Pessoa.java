@@ -1,11 +1,11 @@
 public class Pessoa { 
 	String nome;
-	int idade;
+	double peso;
 	String profissao;
 	
-	public Pessoa(String nome, int idade, String profissao){
+	public Pessoa(String nome, double peso, String profissao){
 		this.nome = nome;
-		this.idade = idade;
+		this.peso = peso;
 		this.profissao = profissao;
 	}
 }
